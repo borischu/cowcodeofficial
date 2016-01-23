@@ -1,1 +1,1 @@
-web: gunicorn mood:app
+web: gunicorn cowcode:app

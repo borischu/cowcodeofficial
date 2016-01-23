@@ -1,6 +1,4 @@
-from flask import Flask, render_template, session, redirect, request, url_for,jsonify
-from flask.ext.mobility import Mobility
-from flask.ext.mobility.decorators import mobile_template
+from flask import Flask, render_template, session, redirect, request, url_for
 import json 
 import requests
 from forms import MoodForm
@@ -9,20 +7,21 @@ import random
 import os 
 
 app = Flask(__name__)
-Mobility(app)
-
-app.secret_key = os.environ.get('MOODMUSICKEY')
 
 ###ROUTING###
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/')
 def index():
+    return render_template('index.html')
+
+@app.route('/moodmusic/', methods = ['GET', 'POST'])
+def mood():
     form = MoodForm(request.form)
     if request.method == 'POST' and form.validate():
         result = sentiment(form.entry.data)
         mood = result[0]
         spot = spotify(result[1])
         return render_template('results.html', mood=mood, spot=spot)
-    return render_template('index.html', form=form)
+    return render_template('music.html', form=form)
 
 def sentiment(text_input):
 
