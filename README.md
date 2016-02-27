@@ -10,7 +10,7 @@
 - Abhishek Routray, University of Texas at Austin - Mechanical Engineering
 - Joshua Yang, University of Texas at Austin - Electrical Engineering
 
-## Hackathons Competed
+## Hackathons Competed In 
 
 - HackPrinceton @ Princeton University - November 13-15th, 2015
 - CodeRED @ University of Houston - November 21-22nd, 2015
