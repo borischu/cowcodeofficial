@@ -4,7 +4,7 @@ not linked to index.html because of background-image issues but is embedded
 
 body
 {
-    background-image: url("../static/images/Burnt Orange Background.png");
+    background-image: url("../static/img/Burnt Orange Background.png");
 }
 .setup
 {
@@ -24,7 +24,7 @@ body
     font-size: 25px;
     font-weight: normal;
     color: white;
-    background-image: url("../static/images/Chalkboard.png");
+    background-image: url("../static/img/Chalkboard.png");
     background-size: 100% 100%;
     border: 0px;
     border-radius: 5px 5px 0px 0px;
