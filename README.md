@@ -20,7 +20,7 @@
 - WhoSaidIt?
 - MoodMusic
 
-## How to run locally (localhost:8000)
+## How to run locally (localhost:5000)
 - first install heroku 
 
 	`$ pip install heroku`
