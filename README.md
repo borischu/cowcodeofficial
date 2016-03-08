@@ -21,8 +21,13 @@
 - MoodMusic
 
 ## How to run locally (localhost:5000)
-- first install heroku 
 
+- first set up virtual environment 
+	`$ virtualenv venv`
+- activate the virtual environment (don't forget to activate whenever you want to run!)
+	`$ source venv/bin/activate`
+- install requirements 
+	`$ pip install -r requirements.txt`
+- install heroku 
 	`$ pip install heroku`
-
 - run (`$ heroku local web`)  in terminal 
