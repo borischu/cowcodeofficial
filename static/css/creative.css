@@ -10,11 +10,6 @@ body {
     height: 100%;
 }
 
-.row {
-  padding-right: 0px;
-  margin-right: 0px;
-}
-
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
@@ -474,6 +469,10 @@ contact{
 .im-centered{ 
     margin: auto; 
     max-width: 1000px;
+}
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 body {
     webkit-tap-highlight-color: #222;
