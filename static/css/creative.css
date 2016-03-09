@@ -127,7 +127,7 @@ aside {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(min-width: 0px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
@@ -214,7 +214,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -470,6 +469,10 @@ contact{
 .im-centered{ 
     margin: auto; 
     max-width: 1000px;
+}
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 body {
     webkit-tap-highlight-color: #222;
